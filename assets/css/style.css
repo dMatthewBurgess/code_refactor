@@ -1,13 +1,14 @@
+/* Universal settings */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Beginning of body styles */
 body {
     background-color: #d9dcd6;
 }
-
+/* Header styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Website Navigation */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -47,7 +48,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Start of main content */
 p {
     font-size: 16px;
 }
@@ -60,7 +61,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Styles for sidebar */
 .float-left .float-right {
     float: left;
     margin-right: 25px;
@@ -92,21 +93,18 @@ p {
     text-align: center;
 }
 
- img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 .benefit-brand, .benefit-cost, .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-
-
-
+/* Properties for images */
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Properties of main content in body */
 .online-reputation-management, .social-media-marketing, .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -115,18 +113,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Properties of images in body*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-
+/*Properties of headers in body*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/*Footer Content*/
 .footer {
     padding: 30px;
     clear: both;
